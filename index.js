@@ -34,4 +34,5 @@ function sayHiToGrandma(string){
   else(sayHiToGrandma === 'I love you, Grandma.') {
     console.log('I love you, too.')
   }
+  return string
 }
