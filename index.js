@@ -26,11 +26,11 @@ function logWhisper(string){
 
 function sayHiToGrandma(string){
   if(sayHiToGrandma == 'hello'){
-    console.log('I can\'t hear you!')
+    return('I can\'t hear you!')
   }else if(sayHiToGrandma == 'HELLO'){
-    console.log('YES INDEED!')
+    return('YES INDEED!')
   }else if(sayHiToGrandma == 'I love you, Grandma.'){
-    console.log('I love you, too.')
+    return('I love you, too.')
   }else{
     console.log("null")
   }
