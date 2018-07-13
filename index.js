@@ -14,3 +14,12 @@ function logShout(string){
     }
   return string.toUpperCase()
 }
+
+function logWhisper(string){
+  console.log('hello')
+    function spy(spyOn){
+      spyOn(logWhisper)
+      return spyOn.toUpperCase()
+    }
+  return string.toLowerCase()
+}
