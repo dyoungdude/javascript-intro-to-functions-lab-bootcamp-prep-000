@@ -25,13 +25,13 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(string){
-  if('hello'){
+  if('hello') {
     return('I can\'t hear you!')
   }
-  else if('HELLO'){
+  else if('HELLO') {
     return('YES INDEED!')
   }
-  else('I love you, Grandma.'){
+  else('I love you, Grandma.') {
     return('I love you, too.')
   }
 }
